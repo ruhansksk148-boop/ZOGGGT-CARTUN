@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cartoon Design Studio | ZOGGGT CARTUN</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #090d35;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 22px;
+  background: #15145d;
+  border-bottom: 3px solid #ffd700;
+}
+
+header h1 { color: #ffd700; }
+
+nav {
+  background: #20206f;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 8px;
+  display: inline-block;
+}
+
+nav a:hover { color: #ffd700; }
+
+.hero {
+  text-align: center;
+  padding: 65px 15px;
+  background: linear-gradient(135deg,#25105c,#d83e9c,#1769d2);
+}
+
+.hero h2 {
+  color: #ffd700;
+  font-size: 36px;
+}
+
+.hero p {
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 25px 15px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+  gap: 18px;
+}
+
+.card {
+  background: #19236b;
+  border: 1px solid #5869ff;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.icon { font-size: 48px; }
+
+.card h3 { color: #ffd700; }
+
+.card p {
+  line-height: 1.7;
+  color: #e3e5ff;
+}
+
+button {
+  background: #ffd700;
+  color: #111;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.panel {
+  background: #151b62;
+  padding: 25px;
+  border-radius: 15px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.panel h2 { color: #ffd700; }
+
+footer {
+  background: #050827;
+  padding: 25px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer a { color: #ffd700; }
+
+@media(max-width:600px) {
+  .hero h2 { font-size: 27px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🎨 ZOGGGT CARTUN</h1>
+  <p>Professional Cartoon Design Studio</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="studio.html">Studio</a>
+  <a href="animation.html">Animation</a>
+  <a href="academy.html">Academy</a>
+  <a href="ai.html">AI</a>
+  <a href="store.html">Store</a>
+  <a href="team.html">Team</a>
+  <a href="contact.html">Contact</a>
+  <a href="reviews.html">Reviews</a>
+</nav>
+
+<section class="hero">
+  <h2>🎨 Cartoon Design Studio</h2>
+  <p>Imagine It. Design It. Bring It to Life!</p>
+  <p>Explore the creative design department of ZOGGGT CARTUN.</p>
+</section>
+
+<main class="container">
+
+<h2 style="text-align:center;color:#ffd700">
+Our Design Departments
+</h2>
+
+<div class="cards">
+
+<div class="card">
+  <div class="icon">🧑</div>
+  <h3>Human Character Design</h3>
+  <p>Original human cartoon characters with different outfits and styles.</p>
+  <button onclick="showInfo('Human Character Design')">Explore</button>
+</div>
+
+<div class="card">
+  <div class="icon">🐯</div>
+  <h3>Animal Character Design</h3>
+  <p>Creative animal cartoon characters for stories and animation.</p>
+  <button onclick="showInfo('Animal Character Design')">Explore</button>
+</div>
+
+<div class="card">
+  <div class="icon">🚶</div>
+  <h3>Character Pose Design</h3>
+  <p>Walking, running, jumping, sitting and other character poses.</p>
+  <button onclick="showInfo('Character Pose Design')">Explore</button>
+</div>
+
+<div class="card">
+  <div class="icon">😀</div>
+  <h3>Character Expressions</h3>
+  <p>Happy, sad, angry, surprised and many facial expressions.</p>
+  <button onclick="showInfo('Character Expressions')">Explore</button>
+</div>
+
+<div class="card">
+  <div class="icon">🧰</div>
+  <h3>Cartoon Props Design</h3>
+  <p>Cartoon objects, furniture, tools and everyday items.</p>
+  <button onclick="showInfo('Cartoon Props Design')">Explore</button>
+</div>
+
+<div class="card">
+  <div class="icon">🌄</div>
+  <h3>Cartoon Background Design</h3>
+  <p>Village, city, forest, room and beautiful 2D environments.</p>
+  <button onclick="showInfo('Cartoon Background Design')">Explore</button>
+</div>
+
+</div>
+
+<section class="panel">
+  <h2>✨ Our Creative Goal</h2>
+  <p>
+    Our goal is to create original cartoon characters,
+    props and backgrounds for creative 2D animation projects.
+  </p>
+</section>
+
+<section class="panel">
+  <h2>🚀 Explore More</h2>
+  <p>Ready to explore our animation production department?</p>
+  <a href="animation.html">
+    <button>Explore Animation</button>
+  </a>
+</section>
+
+</main>
+
+<footer>
+  <h2>🎨 ZOGGGT CARTUN</h2>
+  <p>Dream • Draw • Animate</p>
+  <a href="index.html">Back to Home</a>
+  <p>© 2026 ZOGGGT CARTUN. All Rights Reserved.</p>
+</footer>
+
+<script>
+function showInfo(name) {
+  alert(name + " - Welcome to ZOGGGT CARTUN Studio!");
+}
+</script>
+
+</body>
+</html>
