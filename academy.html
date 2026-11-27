@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation Academy | ZOGGGT CARTUN</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #090d20;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 28px 15px;
+      background: linear-gradient(135deg, #171044, #35145c);
+      border-bottom: 2px solid #f5c542;
+    }
+
+    header h1 {
+      color: #ffd34d;
+      font-size: 30px;
+    }
+
+    header p {
+      margin-top: 8px;
+      color: #ddd;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 15px 8px;
+      background: #111832;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 13px;
+      padding: 8px 10px;
+      border-radius: 7px;
+      background: #25204c;
+    }
+
+    nav a:hover {
+      background: #a56aff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 65px 18px;
+      background: linear-gradient(135deg, #25105a, #541b73);
+    }
+
+    .hero h2 {
+      color: #ffd34d;
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      line-height: 1.7;
+      color: #eee;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 35px 15px;
+    }
+
+    .section-title {
+      text-align: center;
+      color: #ffd34d;
+      margin-bottom: 25px;
+      font-size: 25px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: #151d39;
+      border: 1px solid #493a75;
+      border-radius: 14px;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .card h3 {
+      color: #ffd34d;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #ddd;
+      line-height: 1.7;
+      margin-bottom: 15px;
+    }
+
+    .price {
+      color: #70e6a3;
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 11px 18px;
+      background: linear-gradient(135deg, #f5c542, #ff9e36);
+      color: #171024;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 12px;
+      background: #111832;
+      color: #bbb;
+      margin-top: 25px;
+    }
+
+    footer a {
+      color: #ffd34d;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🎨 ZOGGGT CARTUN</h1>
+  <p>Animation Academy</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="studio.html">Studio</a>
+  <a href="animation.html">Animation</a>
+  <a href="academy.html">Academy</a>
+  <a href="ai.html">AI</a>
+  <a href="store.html">Store</a>
+  <a href="team.html">Team</a>
+  <a href="contact.html">Contact</a>
+  <a href="reviews.html">Reviews</a>
+</nav>
+
+<section class="hero">
+  <h2>🎓 ZOGGGT Animation Academy</h2>
+  <p>
+    Learn Cartoon Drawing and 2D Animation.<br>
+    Start your creative journey with ZOGGGT CARTUN!
+  </p>
+</section>
+
+<main class="container">
+
+  <h2 class="section-title">📚 Our Animation Courses</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>👨 Human Cartoon Course</h3>
+      <p>Learn human cartoon drawing, character poses and animation.</p>
+      <div class="price">₹499</div>
+      <a class="btn" href="index.html#courseAccess">Course Access</a>
+    </div>
+
+    <div class="card">
+      <h3>🐾 Animal Animation Course</h3>
+      <p>Learn animal character drawing, poses and 2D animation.</p>
+      <div class="price">₹499</div>
+      <a class="btn" href="index.html#courseAccess">Course Access</a>
+    </div>
+
+    <div class="card">
+      <h3>🎨 Human + Animal Combo</h3>
+      <p>Learn both human cartoon and animal animation lessons.</p>
+      <div class="price">₹799</div>
+      <a class="btn" href="index.html#courseAccess">Course Access</a>
+    </div>
+
+  </div>
+
+  <h2 class="section-title" style="margin-top:45px;">
+    🌟 Student Learning Center
+  </h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>✏️ Drawing Practice</h3>
+      <p>Practice cartoon characters, backgrounds and different poses.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎬 Course Video Library</h3>
+      <p>Learning videos for enrolled students through the course system.</p>
+    </div>
+
+    <div class="card">
+      <h3>🏆 Learning Progress</h3>
+      <p>Plan your lessons and review your animation learning journey.</p>
+    </div>
+
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 ZOGGGT CARTUN. All Rights Reserved.</p>
+  <p><a href="index.html">Back to Home</a></p>
+</footer>
+
+</body>
+</html>
